@@ -1,36 +1,36 @@
 :root {
-    --font-color-base: #1a1a1a;
-    --color-primary: #ef4da2;
-    --color-secondary: #e1cb20;
+  --font-color-base: #1a1a1a;
+  --color-primary: #ef4da2;
+  --color-secondary: #e1cb20;
 }
 
 body {
-    background: #f5f5f5;
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    color: var(--font-color-base);
+  background: #f5f5f5;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: var(--font-color-base);
 }
 
 .inner {
-    max-width: 1600px;
-    background: rgba(0, 255, 0, 0.1);
-    margin: 0 auto;
-    padding: 0 2.5%;
+  max-width: 1600px;
+  background: rgba(0, 255, 0, 0.1);
+  margin: 0 auto;
+  padding: 0 2.5%;
 }
 
 .wide-inner {
-    width: 100%;
-    background: rgba(255, 0, 0, 0.1);
-    padding: 0 2.5%;
-    position: relative;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 0 2.5%;
+  position: relative;
 }
 
 header {
-    height: 70px;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
 
-    /* >.wide-inner {
+  /* >.wide-inner {
 
         div {
             position: absolute;
@@ -52,30 +52,30 @@ header {
 }
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
-header>.wide-inner>div {
-    position: absolute;
-    top: 50%;
-    display: flex;
+header > .wide-inner > div {
+  position: absolute;
+  top: 50%;
+  display: flex;
 }
 
-header>.wide-inner>.header-left{
-    left:2.5%;
+header > .wide-inner > .header-left {
+  left: 2.5%;
 }
-header>.wide-inner>.header-right{
-    right:2.5%;
+header > .wide-inner > .header-right {
+  right: 2.5%;
 }
-header>.wide-inner>div>ul{
-    display:flex;
-    gap:24px;
+header > .wide-inner > div > ul {
+  display: flex;
+  gap: 24px;
 }
 
 .sub-wrap {
-    display: none;
+  display: none;
 }
 
-main {}
+/* main {}
 
-footer {}
+footer {} */
